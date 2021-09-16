@@ -54,7 +54,8 @@ In cold weather conditions.
 ### How:
 It is a system which can simply installed in a car,in order to maintain the temperature of the seat in the car. 
 ## SWOT Analysis
-![swot](https://user-images.githubusercontent.com/89590962/132450962-fbe1ad24-188e-4957-93b4-4d0cc57c23cd.png)
+![embedded swot](https://user-images.githubusercontent.com/89590962/133650117-5cb7e45d-b7e2-46ee-a33a-ee912af5560e.png)
+
 ## HIGH LEVEL REQUIREMENTS:
 
 |RID|DESCRIPTION|STATUS|
