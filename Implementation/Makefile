@@ -6,7 +6,7 @@ BUILD_DIR = Build
 SRC =main.c\
 src/sensor.c\
 src/temperationvariation.c\
-src/lcdprogram.c\
+src/lcdprogram.c
 
 
 # All header file paths
