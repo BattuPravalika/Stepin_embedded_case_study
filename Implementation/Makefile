@@ -1,12 +1,12 @@
-PROJ_NAME = Stepin_SeatTemperatureApplication
+PROJ_NAME = Stepin_embedded_case_study
 
 BUILD_DIR = Build
 
 # All Source code files
 SRC =main.c\
-src/buttonsensor.c\
-src/pwm.c\
-src/tempsensor.c
+src/sensor.c\
+src/temperationvariation.c\
+src/lcdprogram.c\
 
 
 # All header file paths
