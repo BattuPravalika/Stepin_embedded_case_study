@@ -1,66 +1,73 @@
 # REQUIREMENTS
 
 ## INTRODUCTION
-The case study 
+
+The case study includes Seat Heating systems for cars.An automotive seat heater is an electronic device that falls under the category of automotive interior comfort products. A seat heater is a pad or a cushion that encompasses an electric heating system which boosts up surface temperature of the automotive seat at the will of the person who sits on it.As with the lights in your car, the heated seats are controlled by a type of switch called a relay. A relay allows a small electric current to control a much larger one.
+
+When you flip the switch to turn on the seat heater, a small current flows through a coil in the relay. Near this coil is an open switch. When current flows through the coil, it creates a magnetic field, which pulls the switch closed. This completes a circuit, sending electricity from the battery to the seat cushion heating element. The audible click you can hear in some cars when you turn on the seat heater is the relay closing.
+
 ## RESEARCH
 
-The field of power system is varied vast, ranging from the age-old concepts of electrical machines, overhead line parameters, star-delta topologies, etc, to simple, yet essential skills like calculating Electricity billing. The electrical power system mainly consists of generation, transmission and distribution. For generation of electrical power we have many PSUs and private owned Generating Stations (GS). The electrical transmission system is mainly carried out by central government body PGCIL (Power Grid Corporation of India Limited).
+AS the Technology goes on developing,many comfort zones are been adding to the humans life.In automobile development ,improving its featuresin order to preside the drivers comforts is being one of the main intention of the manufactures.Along with the car cooling system ,seat heaters is also one of those ideas.In Arctic regions and cold regions where atmospheric temperature is less than zero degrees,this seat heaters are most useful.In order increase the temperature of the persons who sits in the car,accroding to his wish,may useful for the people living those regions.
+
 ## DEFINING OUR SYSTEM
-Our System mainly focuses finding the cost of the electricity consumed by consumer. Our System is robust, just user has to enter the units consumed by seeing from the electric meter and his meter id. It gives total bill according to his location and id. This is useful for every consumer who didn’t even know about the power systems.
+
+Our system is all about to adjust the temperature of seat in the car according to desire of driver.It first checks the presence of the passenger on seat ,then it allows the driver to change the temperature of the seat according to his desire.And temperature is displayed on Hd44780-25 display ,by that the driver can change temperature by changing the knob of the heater adjustment.
 
 # STATE OF ART
+
 ## COST
-### Administration side:
-•	Production cost depends upon total operation period of development.
-•	Application cost is minimal in range.
-•	Wages for developer who updates application
-### User side:
-•	No registration cost for user
-•	Application is offline mode, therefore no running cost.
-•	No annual maintenance cost.
+
+### Manufacturer side:
+•	Production cost depends upon total cost of the components.
+•	installation cost.
+•	It also includes profit for the manufacturer.
+•	Wages for developers working on the development of worker.
+### customer side:
+•	It will little amount of cost for running the product.
+• It will include small percentage in the cost of car.
+•	It case of damage it includes cost for reinstalling according to the failure of component.
+•	It has maintenance cost.
 
 # FEATURES
-•	To make the billing system more service-oriented and simple,
-•	The application has high speed of performance with accuracy and efficiency.
-•	The software provides facility of data sharing.
-•	It doesn’t require any staffs as in the conventional system. Once it is installed on the system, only the meter readings are to be given by the customer.
-•	The electricity billing software calculates the units consumed by the customer and makes bills.
-•	It has the provision of security restriction.
-•	It requires small storage for installation and functioning.
-•	There is provision for debugging if any problem is encountered in the system.
+•	It has most efficient operation.
+•	Quick response.
+•	It has less cost for maintenance.
+•	It has wide range temperatures.
+•	It is easy for customer to  operate.
+•	It has less risk for fire accident and less chance of failure.
+
 ## ELECTRICAL CALCULATIONS INCLUDE
- Calculations include calculating total bill of consumer/user according to units consumed by consumer and area he belongs to.
+ Calculations include calculating the resolution of potentiometer according to supply voltage and providing the different temperature for each voltage.
 ## 4W and 1H
 
 ### Who:
-The application is for the user who consuming electricity and wants to know how much he has to pay for his usage.
-
+The system is useful for the people who lives in the arctic regions and cold regions. 
 ### What:
-The objective of the project is to develop an application which is useful for a person who is consume electricity and to generate bill by himself.
+The objective of the project is to develop an system which is useful for a person who drives the car in exterme cold conditions.
 
 ### Where:
-It can be used by every domestic /commercial user to generate the bill according their usage.
+It can be used in every domestic /commercial vehicles ,which travels in arctic region and extreme cold conditions .
 
 ### When:
-If a user wants to know how much it cost for the electricity he has used.
-
+In cold weather conditions.
 ### How:
-It is a handy system, you can enter your id and number of units consumed, it shows the amount of electricity consumed
+It is a system which can simply installed in a car,in order to maintain the temperature of the seat in the car. 
 ## SWOT Analysis
 ![swot](https://user-images.githubusercontent.com/89590962/132450962-fbe1ad24-188e-4957-93b4-4d0cc57c23cd.png)
 ## HIGH LEVEL REQUIREMENTS:
 
 |RID|DESCRIPTION|STATUS|
 |:--|:----------|:-----|
-|HLR1|details|IMPLEMENTED|
-|HLR2|regions|IMPLEMENTED|
-|HLR3|bill calculation|IMPLEMENTED|
+|HLR1|to checkavailability of person|IMPLEMENTED|
+|HLR2|ability to change the temperature|IMPLEMENTED|
+|HLR3|display the seat temperature|IMPLEMENTED|
 
 
 ## LOW LEVEL REQUIREMENTS:
 
 |RID|DESCRIPTION|STATUS|
 |:--|:----------|:-----|
-|LLR1|Name,id,place|IMPLEMENTED|
-|LLR2|regions to specified|IMPLEMENTED|
-|LLR3|tariff for regions|IMPLEMENTED|
+|LLR1|push button acts as relay  |IMPLEMENTED|
+|LLR2|potentiometer to adjust the temperature|IMPLEMENTED|
+|LLR3|Hd44780-25 display is used as output for displaying temperature of seat |IMPLEMENTED|
