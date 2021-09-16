@@ -60,8 +60,8 @@ void PWM_out(uint16_t ADC_value){
     else if((ADC_value>=501) && (ADC_value<=700)){
 
         OCR1A = 675;//70% duty cycle
-        cond[0] = '2';
-       cond[1] = '9';
+        cond[0] = '3';
+       cond[1] = '0';
         cond[2] = 223;
         cond[3] = 'C';
         cond[4] = ' ';
@@ -74,8 +74,8 @@ void PWM_out(uint16_t ADC_value){
     else if((ADC_value>=701) && (ADC_value<=1024)){
 
         OCR1A = 1010; //95% duty cycle
-        cond[0] = '3';
-        cond[1] = '3';
+        cond[0] = '4';
+        cond[1] = '0';
         cond[2] = 223;
         cond[3] = 'C';
         cond[4] = ' ';
